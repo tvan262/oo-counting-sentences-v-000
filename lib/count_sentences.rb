@@ -11,11 +11,16 @@ class String
 
   def question?
     self.end_with?("?")
+     true
+    else
+      false
   end
 
   def exclamation?
     self.end_with?("!")
-
+      true
+    else
+      false
   end
 
   def count_sentences
